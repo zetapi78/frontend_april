@@ -114,3 +114,38 @@ const exampleObject = {
 };
 
 console.log("length of object", exampleObject.length);
+
+// Collection Data Types Are Strings And Arrays
+// Collections have index positions
+// example below are with strings, but they work the same with arrays
+
+const sampleString = "MississippiY";
+console.log(sampleString.length);
+
+// the list index position of a collection is always collection.length -1
+console.log("index 2", sampleString[2]);
+console.log("index last", sampleString[10]);
+console.log("index last other way", sampleString[sampleString.length - 1]);
+console.log("length of empty string", "".length);
+console.log("negative index", sampleString[-1]);
+
+for (let i = 0; i <= sampleString.length - 1; i++) {
+  // the code goes here
+}
+
+// Intro to DOM
+const exampleId = document.getElementById("exampleId");
+console.log(exampleId);
+console.log(exampleId.innerHTML);
+console.log(exampleId.id);
+console.log(exampleId.classList);
+
+exampleId.innerHTML = "The text from our JS file";
+// This below is less efficient than the example above
+// because it has more DOM manipulations
+
+// document.getElementById("exampleId").innerHTML;
+// document.getElementById("exampleId").id;
+// document.getElementById("exampleId").classList;
+
+console.log(document.getElementsByClassName("div-text"));
