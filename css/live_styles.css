@@ -1,0 +1,109 @@
+.page-wrapper {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  background-color: cornsilk;
+
+  width: 200px;
+}
+
+.main {
+  /* flex-parent */
+  display: flex;
+  flex-direction: column;
+
+  /* flex-child */
+  flex-grow: 2;
+
+  /* design */
+  background-color: rebeccapurple;
+}
+
+.searchbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: seashell;
+  height: 60px;
+}
+
+.left-search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.right-search-wrapper {
+  justify-self: flex-end;
+}
+
+.main-cards-wrapper {
+  /* flex-parent */
+  display: flex;
+
+  /* flex-child */
+  flex-grow: 2;
+
+  background-color: skyblue;
+  /* height: 100%; */
+}
+
+.schedule-wrapper {
+  background-color: white;
+  width: 500px;
+}
+
+.graphs-wrapper {
+  /* flex-parent */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* flex-child */
+  flex-grow: 2;
+
+  /* design */
+  background-color: gray;
+}
+
+.bar-graph-wrapper {
+  background-color: red;
+  height: 290px;
+}
+
+.chart-wrapper {
+  background-color: red;
+  height: 290px;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.day-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.day-text {
+  color: slategray;
+}
+
+.day-number {
+  color: darkblue;
+  padding: 3px;
+}
+
+.day-number-selected {
+  background-color: darkblue;
+  border-radius: 50%;
+  color: white;
+  padding: 3px;
+}

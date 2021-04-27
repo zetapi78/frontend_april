@@ -1,0 +1,73 @@
+/* div {
+  background-color: blue;
+  color: red;
+  font-size: 18px;
+} */
+
+.div-text {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.span-text {
+  background-color: red;
+  color: blue;
+  font-size: 28px;
+}
+
+/* // Examples for position */
+
+.position-wrapper {
+  height: 200px;
+  position: relative;
+}
+
+.middle-div {
+  background-color: green;
+  height: 100px;
+  position: absolute;
+  width: 50px;
+}
+
+.position-absolute {
+  position: absolute;
+  border: 1px solid black;
+}
+
+.flex-parent {
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* design */
+  background-color: blueviolet;
+  color: wheat;
+  height: 300px;
+  width: 100%;
+}
+
+.flex-child {
+  /* flex parent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* flex child */
+  align-self: center;
+
+  /* designs */
+  background-color: green;
+  height: 300px;
+}
+
+.flex-child-two-a {
+  align-self: center;
+}
+
+.flex-child-two-b {
+  align-self: center;
+}
